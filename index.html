@@ -3,55 +3,491 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Portfolio - DevOps Engineer</title>
+  <meta name="description" content="Sourabh Bhoyar — DevOps & Cloud Engineer. Building scalable infrastructure with Azure, Kubernetes, and Terraform.">
+  <title>Sourabh Bhoyar — DevOps Engineer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header>
-  <h1>Sourabh Bhoyar</h1>
-  <p>DevOps Engineer | Azure | Kubernetes | Terraform | CI/CD</p>
+<!-- ANIMATED BACKGROUND ELEMENTS -->
+<div class="bg-orbs">
+  <div class="orb orb-1"></div>
+  <div class="orb orb-2"></div>
+  <div class="orb orb-3"></div>
+</div>
+
+<header class="nav-wrap">
+  <nav class="nav container">
+    <div class="nav-brand">
+      <a href="#" class="brand">SB<span class="dot">.</span></a>
+      <span class="role">DevOps Engineer</span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="actions">
+      <a href="#contact" class="btn-nav">Get in Touch</a>
+    </div>
+  </nav>
 </header>
 
-<section id="about">
-  <h2>About Me</h2>
-  <p>
-    I am a DevOps Engineer with hands-on experience in Azure, Kubernetes, Terraform, and CI/CD pipelines.
-    I help teams automate deployments, improve reliability, and build scalable cloud systems.
-  </p>
+<section class="hero">
+  <div class="hero-wrapper">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <div class="hero-badge">👋 Welcome to my portfolio</div>
+        <h1 class="hero-title">
+          <span class="text-gradient">Building Infrastructure</span>
+          <span class="text-gradient-2">That Scales</span>
+        </h1>
+        <p class="hero-subtitle">
+          I'm a DevOps engineer crafting robust cloud systems, automating CI/CD pipelines, and orchestrating containers at scale. Specialized in Azure, Kubernetes, and Infrastructure as Code.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">
+            <span>View My Work</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M5 12h14m-7-7l7 7-7 7"/>
+            </svg>
+          </a>
+          <a href="#contact" class="btn btn-secondary">Let's Talk</a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="code-block">
+          <div class="code-header">
+            <span class="code-dot"></span>
+            <span class="code-dot"></span>
+            <span class="code-dot"></span>
+          </div>
+          <pre><code><span class="keyword">apiVersion:</span> v1
+<span class="keyword">kind:</span> Pod
+<span class="keyword">metadata:</span>
+  <span class="keyword">name:</span> <span class="string">devops-hero</span>
+<span class="keyword">spec:</span>
+  <span class="keyword">containers:</span>
+  - <span class="keyword">name:</span> <span class="string">app</span>
+    <span class="keyword">image:</span> awesome/dev
+    <span class="keyword">ports:</span>
+    - <span class="keyword">containerPort:</span> <span class="number">8080</span></code></pre>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
 
-<section id="skills">
-  <h2>Skills</h2>
-  <ul>
-    <li>Azure, AKS, VMSS, App Services</li>
-    <li>Kubernetes, Docker, Helm</li>
-    <li>Terraform, ARM Templates</li>
-    <li>CI/CD: Azure DevOps, GitHub Actions</li>
-    <li>Monitoring: Prometheus, Grafana, App Insights</li>
-  </ul>
+<section id="about" class="about">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title">About Me</h2>
+      <p class="section-subtitle">5+ years automating infrastructure and empowering teams</p>
+    </div>
+    <div class="about-grid">
+      <div class="about-card">
+        <div class="about-icon">⚙️</div>
+        <h3>Infrastructure Automation</h3>
+        <p>I design and implement infrastructure using Terraform, enabling teams to manage cloud resources as code with confidence.</p>
+      </div>
+      <div class="about-card">
+        <div class="about-icon">☸️</div>
+        <h3>Kubernetes & Containers</h3>
+        <p>Expert in AKS, Helm, and container orchestration. I build scalable platforms that handle production workloads seamlessly.</p>
+      </div>
+      <div class="about-card">
+        <div class="about-icon">🚀</div>
+        <h3>CI/CD & Automation</h3>
+        <p>Crafting deployment pipelines with GitHub Actions and Azure DevOps for rapid, reliable releases with zero downtime.</p>
+      </div>
+      <div class="about-card">
+        <div class="about-icon">📊</div>
+        <h3>Observability & Monitoring</h3>
+        <p>Building comprehensive monitoring stacks with Prometheus and Grafana to ensure systems stay healthy and performant.</p>
+      </div>
+    </div>
+  </div>
 </section>
 
-<section id="projects">
-  <h2>Projects</h2>
-  <ul>
-    <li>🚀 CI/CD Pipeline using Azure DevOps</li>
-    <li>🐳 Dockerized microservice with Kubernetes deployment</li>
-    <li>🌍 Infrastructure as Code using Terraform for AKS</li>
-    <li>📊 Observability stack with Prometheus + Grafana</li>
-  </ul>
+<section id="experience" class="experience">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title">Experience & Expertise</h2>
+      <p class="section-subtitle">6 years of hands-on DevOps, Cloud, and Infrastructure work</p>
+    </div>
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-marker"></div>
+        <div class="timeline-content">
+          <h3>Senior DevOps Engineer</h3>
+          <p class="timeline-period">2022 - Present</p>
+          <p>Leading infrastructure initiatives, mentoring engineers, optimizing CI/CD pipelines for 20+ microservices, and reducing deployment times by 60%.</p>
+          <div class="tech-tags">
+            <span>Azure</span>
+            <span>AKS</span>
+            <span>Terraform</span>
+            <span>GitHub Actions</span>
+          </div>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-marker"></div>
+        <div class="timeline-content">
+          <h3>DevOps Engineer</h3>
+          <p class="timeline-period">2020 - 2022</p>
+          <p>Implemented containerization strategy, set up Kubernetes clusters, built monitoring infrastructure, and established best practices across the team.</p>
+          <div class="tech-tags">
+            <span>Kubernetes</span>
+            <span>Docker</span>
+            <span>AWS/Azure</span>
+            <span>Prometheus</span>
+          </div>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-marker"></div>
+        <div class="timeline-content">
+          <h3>Cloud Systems Administrator</h3>
+          <p class="timeline-period">2019 - 2020</p>
+          <p>Managed cloud infrastructure on Azure, automated system deployments, and improved system reliability from 95% to 99.9% uptime.</p>
+          <div class="tech-tags">
+            <span>Azure</span>
+            <span>Automation</span>
+            <span>Linux</span>
+            <span>Networking</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
 
-<section id="contact">
-  <h2>Contact</h2>
-  <p>Email: yourname@example.com</p>
-  <p>LinkedIn: https://linkedin.com/in/yourname</p>
-  <p>GitHub: https://github.com/yourname</p>
+<section id="linkedin" class="container">
+  <h2 class="section-title">Latest on LinkedIn</h2>
+  <p class="muted">Paste the embed HTML from a public LinkedIn post, or replace the example URL below with your post URL.</p>
+  <div class="linkedin-embed">
+    <!-- Example embed snippet: replace href with your public LinkedIn post URL or paste the full embed code LinkedIn provides -->
+    <script src="https://platform.linkedin.com/in.js" type="text/javascript">lang: en_US</script>
+    <blockquote class="linkedin-post" data-locale="en_US">
+      <a href="https://www.linkedin.com/posts/your-profile_post-id">Example LinkedIn post (replace with your post URL)</a>
+    </blockquote>
+  </div>
 </section>
 
-<footer>
-  <p>© 2025 Sourabh Bhoyar. All Rights Reserved.</p>
+<section id="skills" class="skills">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title">Skills & Technologies</h2>
+      <p class="section-subtitle">Expertise across cloud platforms, orchestration, and infrastructure automation</p>
+    </div>
+    
+    <div class="skills-grouped">
+      <div class="skill-group">
+        <h3 class="skill-category">Cloud Platforms</h3>
+        <div class="skill-badges">
+          <span class="skill-badge">Azure</span>
+          <span class="skill-badge">AWS</span>
+          <span class="skill-badge">GCP</span>
+          <span class="skill-badge">Multi-Cloud</span>
+        </div>
+      </div>
+
+      <div class="skill-group">
+        <h3 class="skill-category">Container & Orchestration</h3>
+        <div class="skill-badges">
+          <span class="skill-badge">Kubernetes</span>
+          <span class="skill-badge">AKS</span>
+          <span class="skill-badge">EKS</span>
+          <span class="skill-badge">Docker</span>
+          <span class="skill-badge">Helm</span>
+        </div>
+      </div>
+
+      <div class="skill-group">
+        <h3 class="skill-category">Infrastructure & Automation</h3>
+        <div class="skill-badges">
+          <span class="skill-badge">Terraform</span>
+          <span class="skill-badge">Terragrunt</span>
+          <span class="skill-badge">Ansible</span>
+          <span class="skill-badge">Azure Policy</span>
+          <span class="skill-badge">Pulumi</span>
+        </div>
+      </div>
+
+      <div class="skill-group">
+        <h3 class="skill-category">CI/CD & DevOps</h3>
+        <div class="skill-badges">
+          <span class="skill-badge">GitHub Actions</span>
+          <span class="skill-badge">Azure DevOps</span>
+          <span class="skill-badge">Jenkins</span>
+          <span class="skill-badge">GitLab CI</span>
+          <span class="skill-badge">ArgoCD</span>
+        </div>
+      </div>
+
+      <div class="skill-group">
+        <h3 class="skill-category">Monitoring & Observability</h3>
+        <div class="skill-badges">
+          <span class="skill-badge">Prometheus</span>
+          <span class="skill-badge">Grafana</span>
+          <span class="skill-badge">ELK Stack</span>
+          <span class="skill-badge">Datadog</span>
+          <span class="skill-badge">New Relic</span>
+        </div>
+      </div>
+
+      <div class="skill-group">
+        <h3 class="skill-category">Programming & Scripting</h3>
+        <div class="skill-badges">
+          <span class="skill-badge">Python</span>
+          <span class="skill-badge">Bash</span>
+          <span class="skill-badge">Go</span>
+          <span class="skill-badge">YAML</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="projects" class="projects">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title">Featured Projects</h2>
+      <p class="section-subtitle">Innovative solutions for modern infrastructure challenges</p>
+    </div>
+    <div class="projects-grid">
+      <article class="project-card">
+        <div class="project-header">
+          <div class="project-icon">🔄</div>
+          <h3>Azure Multi-Stage CI/CD Pipeline</h3>
+        </div>
+        <p class="project-description">
+          Engineered a sophisticated multi-stage pipeline supporting blue/green deployments, automated testing, secret rotation, and canary releases for production applications.
+        </p>
+        <div class="project-highlights">
+          <span class="highlight">60% faster deployments</span>
+          <span class="highlight">Zero-downtime releases</span>
+          <span class="highlight">Automated rollbacks</span>
+        </div>
+        <p class="tech-stack"><strong>Tech:</strong> Azure DevOps, GitHub Actions, YAML, Helm, Docker</p>
+        <div class="project-links">
+          <a href="https://github.com/your-github/azure-cicd" target="_blank" class="project-link">View Repository</a>
+          <a href="#" class="project-link secondary">Read Case Study</a>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-header">
+          <div class="project-icon">☸️</div>
+          <h3>Microservices Platform on AKS</h3>
+        </div>
+        <p class="project-description">
+          Designed and deployed a production-grade microservices platform with Helm charts, autoscaling policies, centralized logging, and comprehensive monitoring infrastructure.
+        </p>
+        <div class="project-highlights">
+          <span class="highlight">99.9% uptime SLA</span>
+          <span class="highlight">Auto-scaling</span>
+          <span class="highlight">Full observability</span>
+        </div>
+        <p class="tech-stack"><strong>Tech:</strong> AKS, Helm, Docker, Prometheus, Grafana, ELK</p>
+        <div class="project-links">
+          <a href="https://github.com/your-github/k8s-microservices" target="_blank" class="project-link">View Repository</a>
+          <a href="#" class="project-link secondary">Watch Demo</a>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-header">
+          <div class="project-icon">🏗️</div>
+          <h3>Terraform Infrastructure Modules</h3>
+        </div>
+        <p class="project-description">
+          Created reusable, enterprise-grade Terraform modules for Azure infrastructure including VNet, AKS clusters, managed identities, and comprehensive monitoring stacks.
+        </p>
+        <div class="project-highlights">
+          <span class="highlight">Reusable modules</span>
+          <span class="highlight">Production-ready</span>
+          <span class="highlight">Well-documented</span>
+        </div>
+        <p class="tech-stack"><strong>Tech:</strong> Terraform, AzureRM, Terragrunt, Azure Policy</p>
+        <div class="project-links">
+          <a href="https://github.com/your-github/terraform-aks" target="_blank" class="project-link">View Repository</a>
+          <a href="#" class="project-link secondary">Read Documentation</a>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-header">
+          <div class="project-icon">📊</div>
+          <h3>Observability & Monitoring Stack</h3>
+        </div>
+        <p class="project-description">
+          Built enterprise-grade monitoring infrastructure with Prometheus, Grafana, and centralized logging for real-time insights into system health and performance.
+        </p>
+        <div class="project-highlights">
+          <span class="highlight">Real-time alerts</span>
+          <span class="highlight">Custom dashboards</span>
+          <span class="highlight">Root cause analysis</span>
+        </div>
+        <p class="tech-stack"><strong>Tech:</strong> Prometheus, Grafana, ELK Stack, AlertManager</p>
+        <div class="project-links">
+          <a href="https://github.com/your-github/observability" target="_blank" class="project-link">View Repository</a>
+          <a href="#" class="project-link secondary">View Dashboard Repo</a>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-header">
+          <div class="project-icon">🔐</div>
+          <h3>Security & Compliance Automation</h3>
+        </div>
+        <p class="project-description">
+          Implemented automated security scanning, vulnerability management, and compliance enforcement across all Azure resources using Azure Policy and custom automation.
+        </p>
+        <div class="project-highlights">
+          <span class="highlight">99% compliance</span>
+          <span class="highlight">Automated scanning</span>
+          <span class="highlight">Audit trails</span>
+        </div>
+        <p class="tech-stack"><strong>Tech:</strong> Azure Policy, Azure Security Center, Terraform</p>
+        <div class="project-links">
+          <a href="https://github.com/your-github/security-automation" target="_blank" class="project-link">View Repository</a>
+          <a href="#" class="project-link secondary">Read Whitepaper</a>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-header">
+          <div class="project-icon">🌐</div>
+          <h3>Infrastructure as Code Frameworks</h3>
+        </div>
+        <p class="project-description">
+          Developed comprehensive IaC frameworks and automation toolkits for standardizing infrastructure deployment, reducing manual errors by 95%, and speeding up provisioning.
+        </p>
+        <div class="project-highlights">
+          <span class="highlight">95% error reduction</span>
+          <span class="highlight">Standardized</span>
+          <span class="highlight">Fully automated</span>
+        </div>
+        <p class="tech-stack"><strong>Tech:</strong> Terraform, Terragrunt, Ansible, Python</p>
+        <div class="project-links">
+          <a href="https://github.com/your-github/iac-framework" target="_blank" class="project-link">View Repository</a>
+          <a href="#" class="project-link secondary">See Showcase</a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="linkedin" class="container">
+  <h2 class="section-title">Latest on LinkedIn</h2>
+
+  <!-- Paste the embed HTML from LinkedIn here -->
+  <!-- Example placeholder (your copied embed will be different): -->
+  <script src="https://platform.linkedin.com/in.js" type="text/javascript">lang: en_US</script>
+  <blockquote class="linkedin-post" data-locale="en_US">
+    <a href="https://www.linkedin.com/posts/your-profile_post-id">Check this post on LinkedIn</a>
+  </blockquote>
+</section>
+
+<section id="contact" class="contact">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title">Let's Build Something Great</h2>
+      <p class="section-subtitle">Open to collaborations, projects, and interesting opportunities</p>
+    </div>
+    
+    <div class="contact-content">
+      <div class="contact-card">
+        <h3>Get in Touch</h3>
+        <p>Have an interesting project or opportunity? I'd love to hear from you. Reach out and let's discuss how we can work together.</p>
+        <a href="mailto:sourabh.bhoyar@example.com" class="btn btn-primary">
+          <span>Send me an Email</span>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+            <polyline points="22,6 12,13 2,6"/>
+          </svg>
+        </a>
+      </div>
+
+      <div class="contact-links">
+        <a href="https://linkedin.com/in/your-linkedin" target="_blank" class="social-link">
+          <span>LinkedIn</span>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+          </svg>
+        </a>
+        <a href="https://github.com/your-github" target="_blank" class="social-link">
+          <span>GitHub</span>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v 3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+          </svg>
+        </a>
+        <a href="https://twitter.com/your-twitter" target="_blank" class="social-link">
+          <span>Twitter</span>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417a9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container footer-content">
+    <div class="footer-text">
+      <p>© <span id="year"></span> Sourabh Bhoyar • DevOps Engineer</p>
+      <p class="footer-tagline">Crafted with precision, built with code, powered by ☕</p>
+    </div>
+    <div class="footer-links">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
 </footer>
+
+<script>
+  // Set current year
+  document.getElementById('year').textContent = new Date().getFullYear();
+
+  // Smooth scroll for anchor links
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+      const href = this.getAttribute('href');
+      if (href !== '#') {
+        e.preventDefault();
+        const target = document.querySelector(href);
+        if (target) {
+          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      }
+    });
+  });
+
+  // Add scroll animation for elements
+  const observerOptions = {
+    threshold: 0.1,
+    rootMargin: '0px 0px -100px 0px'
+  };
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('animate-in');
+        observer.unobserve(entry.target);
+      }
+    });
+  }, observerOptions);
+
+  document.querySelectorAll('.project-card, .about-card, .timeline-item, .skill-group').forEach(el => {
+    observer.observe(el);
+  });
+</script>
 
 </body>
 </html>
