@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Sourabh Bhoyar — DevOps Engineer Portfolio
 
 A modern, animated portfolio website showcasing DevOps engineering expertise in cloud infrastructure, Kubernetes, and Infrastructure as Code.
@@ -92,3 +93,6 @@ This portfolio is open source and available for personal use.
 ---
 
 **Built with ❤️ by Sourabh Bhoyar**
+=======
+# portfolio
+>>>>>>> 7276cb55312ea6d9ce38fc029736e97e1f25dac5
